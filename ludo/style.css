@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+/*Define o tamanho do container do ludo e alinha ao centro*/
+.ludo-container {
+    width: 470px;
+    margin: 20px auto;
+}
+
+/*Na div que conterá o ludo, aplica essas características  */
+.ludo-container .ludo {
+    height: 470px;
+    width: 100%;
+    background-image: url('./ludo-bg.jpg');
+    background-size: contain;
+    position: relative;
+}
+
+/* Div das peças ocupa 100% da largura e altura do tabuleiro ludo*/
+.player-pieces {
+    height: 100%;
+    width: 100%;
+}
+
+/* Cada div ocupa 3% da largura de player-pieces */
+.player-piece {
+    width: 3%;
+    height: 3%;
+
+    border: 2px solid;
+    border-radius: 10px;
+    
+    /*Posiciona corretamente */
+    position: absolute;
+    transform: translate(50%, 50%);
+
+    /* Entender o que isso significa*/
+    transition: all .2s;
+
+    /*Coloca sobreposta*/
+    z-index: 1;
+
+    /* top: 15%;
+    left: 50%; */
+}
+
+/* Classe que demonstra que a peça pode ser usada */
+.player-piece.highlight {
+    cursor: pointer;
+    border: 2px dashed;
+    /* Gira a cada 1s infinitamente de forma linear */
+    animation: spin 1s infinite linear;
+}
+
+/* Animação girar */
+@keyframes spin {
+    /* Rotaciona de 0 a 360 */
+    0% {
+        transform: translate(50%, 50%) rotate(0deg);
+    }
+    /* Aumenta em 40% em 50% */
+    50% {
+        transform: translate(50%, 50%) rotate(180deg) scale(1.4);
+    }
+    100% {
+        transform: translate(50%, 50%) rotate(360deg);
+    }
+}
+
+/* Define as cores dos atributos player-id 1*/
+[player-id="P1"].player-piece {
+    background-color: #2eafff;
+}
+
+/* Define as cores dos atributos player-id 2*/
+[player-id="P2"].player-piece {
+    background-color: #00b550;
+}
+
+/* As bases possuem 40% de largura e altura da .ludo e borda de 30px, posição absoluta devido ao .ludo ser relativo */
+.player-base {
+    width: 40%;
+    height: 40%;
+    border: 30px solid;
+    position: absolute;
+}
+
+/* Do p1 fica no canto inferior esquerdo com borda azul */
+.player-bases [player-id="P1"].player-base {
+    /* Posiciona no canto inferior esquerdo */
+    bottom: 0;
+    left: 0;
+    border-color: #1295e7;
+}
+
+/*  Do p2 fica no canto superior direito */
+.player-bases [player-id="P2"].player-base {
+    /* Posiciona no canto superior direito */
+    top: 0;
+    right: 0;
+    border-color: #049645;
+}
+
+/* Cria uma animação para a base do jogador */
+.player-base.highlight {
+    animation: border-blink .7s infinite ease-in-out;
+}
+
+/*Estiliza para piscar quando o player está pronto  */
+@keyframes border-blink {
+    50% {
+        border-color: rgba(255, 255, 255, 0.8);
+    }
+}
+
+.btn {
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:disabled {
+    opacity: 0.5;
+}
+
+.btn-dice {
+    background-color: #009d60;
+    color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.dice-value {
+    font-size: 24px;
+    font-weight: bold;
+}

@@ -1,0 +1,158 @@
+[
+    {
+        "pergunta": "Qual é a capital da França?",
+        "resposta": "paris",
+        "dificuldade": "Fácil"
+    },
+    {
+        "pergunta": "Qual é o maior bioma brasileiro em extensão territorial?",
+        "resposta": "amazônia",
+        "dificuldade": "Fácil"
+    },
+    {
+        "pergunta": "Qual expressão refere-se ao movimento político e ideológico contrário ao comunismo nos Estados Unidos, no começo da década de 50?",
+        "resposta": "macartismo",
+        "dificuldade": "Difícil"
+    },
+    {
+        "pergunta": "A função f(x) = 2x - 1 é uma função de qual grau?",
+        "resposta": "primeiro grau",
+        "dificuldade": "Fácil"
+    },
+    {
+        "pergunta": "EMBORA ela tenha feito o dever de casa, não foi bem na prova. Qual é o tipo da conjunção em destaque?",
+        "resposta": "concessiva",
+        "dificuldade": "Difícil"
+    },
+    {
+        "pergunta": "Qual filósofo grego escreveu 'A República?'",
+        "resposta": "platão",
+        "dificuldade": "Média"
+    },
+    {
+        "pergunta": "Em qual área do Brasil é comum possuir chuvas ciclônicas?",
+        "resposta": "sul e sudeste",
+        "dificuldade": "Média"
+    },
+    {
+        "pergunta": "Quem foi o líder da Inconfidência Mineira?",
+        "resposta": "tiradentes",
+        "dificuldade": "Média"
+    },
+    {
+        "pergunta": "Quem foi o primeiro governador-geral do Brasil?",
+        "resposta": "tomé de sousa",
+        "dificuldade": "Fácil"
+    },
+    {
+        "pergunta": "Qual foi o tratado que encerrou a Primeira Guerra Mundial?",
+        "resposta": "tratado de versalhes",
+        "dificuldade": "Média"
+    },
+    {
+        "pergunta": "Quem foi o imperador responsável pela construção do Coliseu em Roma?",
+        "resposta": "vespasiano",
+        "dificuldade": "Difícil"
+    },
+    {
+        "pergunta": "Quem pintou a obra 'Guernica'?",
+        "resposta": "picasso",
+        "dificuldade": "Média"
+    },
+    {
+        "pergunta": "Quem é o autor do livro 'Dom Casmurro'?",
+        "resposta": "machado de assis",
+        "dificuldade": "Fácil"
+    },
+    {
+        "pergunta": "Qual movimento artístico é caracterizado pelo uso de formas geométricas e pela fragmentação da imagem?",
+        "resposta": "cubismo",
+        "dificuldade": "Fácil"
+    },
+    {
+        "pergunta": "Qual é a forma correta do verbo “to be” na frase “She ___ a teacher”?",
+        "resposta": "is",
+        "dificuldade": "Média"
+    },
+    {
+        "pergunta": "Qual é a forma correta do verbo 'work' na frase 'She ___ in a town.'?",
+        "resposta": "works",
+        "dificuldade": "Média"
+    },
+    {
+        "pergunta": "Qual é o termo usado para descrever a capacidade de um atleta de se concentrar e manter o foco durante a competição?",
+        "resposta": "atenção",
+        "dificuldade": "Média"
+    },
+    {
+        "pergunta": "Crie um verbo a partir do Substantivo 'vergonha' no processo de parassíntese",
+        "resposta": "envergonhar",
+        "dificuldade": "Difícil"
+    },
+    {
+        "pergunta": "Quanto vale 219234^0?",
+        "resposta": "1",
+        "dificuldade": "Média"
+    },
+    {
+        "pergunta": "Se um triângulo tem lados de 3 cm, 4 cm e 5 cm, qual é o perímetro do triângulo? (Digite sem unidade de medida)",
+        "resposta": "12",
+        "dificuldade": "Média"
+    },
+    {
+        "pergunta": "Qual é o resultado de 15 ÷ 3 + 4 * 2?",
+        "resposta": "13",
+        "dificuldade": "Fácil"
+    },
+    {
+        "pergunta": "Qual é a área de um círculo com raio de 7 cm (use π≈3 e Area = π*r²)?",
+        "resposta": "147",
+        "dificuldade": "Difícil"
+    },
+    {
+        "pergunta": "Se um ângulo de um triângulo é de 90 graus e os outros dois ângulos são iguais, qual é o valor de cada um desses ângulos? (Coloque somente o número)",
+        "resposta": "45",
+        "dificuldade": "Média"
+    },
+
+    {
+        "pergunta": "Qual o resultado da expressão 3 + 4!",
+        "resposta": "27",
+        "dificuldade": "Difícil"
+    },
+    {
+        "pergunta": "Qual é a fórmula química do dióxido de carbono?",
+        "resposta": "co2",
+        "dificuldade": "Fácil"
+    },
+    {
+        "pergunta": "Qual é a camada mais externa da Terra?",
+        "resposta": "crosta",
+        "dificuldade": "Média"
+    },
+    {
+        "pergunta": "Qual é o pH de uma solução neutra?",
+        "resposta": "7",
+        "dificuldade": "Fácil"
+    },
+    {
+        "pergunta": "Qual é a terceira lei de Newton?",
+        "resposta": "ação e reação",
+        "dificuldade": "Média"
+    },
+    {
+        "pergunta": "Qual é o elemento químico representado pelo símbolo “Ag”?",
+        "resposta": "prata",
+        "dificuldade": "Média"
+    },
+    {
+        "pergunta": "Qual é a organela responsável pela produção de energia na célula?",
+        "resposta": "mitocôndria",
+        "dificuldade": "Difícil"
+    },
+    {
+        "pergunta": "Qual é a unidade de medida da intensidade da corrente elétrica?",
+        "resposta": "ampère",
+        "dificuldade": "Difícil"
+    }
+]

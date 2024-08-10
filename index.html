@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LudoJS Tutorial</title>
+    <link rel="stylesheet" href="./ludo/style.css">
+    <link rel="stylesheet" href="./ludo/popup.css">
+</head>
+<body>
+    <!-- Cria div contendo classe ludo-container para envolver todo o conteúdo -->
+    <div class="ludo-container">
+
+        <!-- Div que conterá o ludo -->
+        <div class="ludo">
+            <!-- DIv que ocupa todo o ludo referente às peças do tabuleiro -->
+            <div class="player-pieces">
+                <!-- Divs que especificam as peças do jogador, atributos player-id e piece foram criados para especificar o que cada peça significa -->
+                <div class="player-piece" player-id="P1" piece="0"></div>
+                <div class="player-piece" player-id="P1" piece="1"></div>
+                <div class="player-piece" player-id="P1" piece="2"></div>
+                <div class="player-piece" player-id="P1" piece="3"></div>
+                
+                <div class="player-piece" player-id="P2" piece="0"></div>
+                <div class="player-piece" player-id="P2" piece="1"></div>
+                <div class="player-piece" player-id="P2" piece="2"></div>
+                <div class="player-piece" player-id="P2" piece="3"></div>
+            </div>
+
+            <!-- Base dos jogadores -->
+            <div class="player-bases">
+                <!-- Base do P1 -->
+                <div class="player-base" player-id="P1"></div>
+                <!-- Base do P2 -->
+                <div class="player-base" player-id="P2"></div>
+            </div>
+        </div>
+        
+        <div class="popup-wrapper">
+            <!-- Popup -->
+            <div class="container-pergunta">
+                <div class="popup-close">
+                    X
+                </div>
+                <div class="popup-difficulty">aaaaaaaaa</div>
+                <div class="pergunta">
+                </div>
+                <div class="resposta">
+                    <input type="text" class="entrada-resposta" placeholder="Resposta">
+                    <button class="admitir-resposta-botao" type="submit">Admitir</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Div que conterá o rodapé dos botões -->
+        <div class="footer">
+            <div class="row">
+                <!-- Botão que rola o dado -->
+                <button id="dice-btn" class="btn btn-dice">Roll</button>
+
+                <!-- Div que exibirá o resultado do dado -->
+                <div class="dice-value"></div>
+                <button id="reset-btn" class="btn btn-reset">Reset</button>
+            </div>
+            <h2 class="active-player">Active Player: <span></span> </h2>
+        </div>
+    </div>
+
+
+
+    <script src="./main.js" type="module"></script>
+    <script src="./ludo/Resposta.js" type="module"></script>
+    <!-- <script src="./ludo/testeJSON.js"></script> -->
+</body>
+</html>
